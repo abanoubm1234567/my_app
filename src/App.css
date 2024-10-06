@@ -18,11 +18,20 @@
   margin-right: 50px;
 }
 .hd1_c1 p{
-font-size: 9px;
+font-size: 18px;
 color: rgb(27, 27, 27);
 }
 
 .hd1_c2 p{
   font-size: 9px;
   color: rgb(27, 27, 27);
-  }
+}
+
+.pp1{
+
+}
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -6,8 +6,8 @@ class Header extends Component {
       <div className="hd1">
         <div className="hd1_c1">
           <div>
-            <p>{this.props.personInfo.name}</p>
-            <p>{this.props.personInfo.occupation}</p>
+            <p className="name">{this.props.personInfo.name}</p>
+            <p className="occupation">{this.props.personInfo.occupation}</p>
           </div>
         </div>
         <div className="hd1_c2">
