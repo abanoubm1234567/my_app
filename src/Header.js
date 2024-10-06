@@ -12,9 +12,9 @@ class Header extends Component {
         </div>
         <div className="hd1_c2">
           <div>
-            <p>Email: {this.props.contactInfo.email}</p>
-            <p>Web: {this.props.contactInfo.web}</p>
-            <p>Mobile: {this.props.contactInfo.mobile}</p>
+            <p className="contactInformation">Email: {this.props.contactInfo.email}</p>
+            <p className="contactInformation">Web: {this.props.contactInfo.web}</p>
+            <p className="contactInformation">Mobile: {this.props.contactInfo.mobile}</p>
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ color: rgb(27, 27, 27);
 }
 
 .hd1_c2 p{
-  font-size: 9px;
+  font-size: 18px;
   color: rgb(27, 27, 27);
 }
 
@@ -34,4 +34,8 @@ color: rgb(27, 27, 27);
 .name{
   font-size: 18px;
   font-weight: bold;
+}
+
+.contactInformation{
+  font-size: 9px;
 }
