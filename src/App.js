@@ -4,6 +4,7 @@ import Header from './Header';
 import PersonalProfile from './PersonalProfile';
 import WorkExperience from './WorkExperience';
 import Skills from './Skills';
+import Education from './Education';
 class App extends Component {
   constructor(props) {
     super(props)
@@ -20,7 +21,8 @@ class App extends Component {
       titles: {
         pp: "Personal Profile",
         we: "Work Experience",
-        ks: "Key Skills"
+        ks: "Key Skills",
+        ed: "Education",
       },
       description: {
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.",
@@ -32,6 +34,17 @@ class App extends Component {
       skills: {
         aks: "A Key skill",
       },
+      schools: {
+        njit: "New Jersey Institute of Technology",
+      },
+      education: {
+        bs: "BS in Computer Science",
+        year1: "2018 - 2022",
+        gpa1: "GPA: 3.9",
+        ms: "MS in Data Science",
+        year2: "2022 - 2023",
+        gpa2: "GPA: 4.0",
+      }
     }
   }
   render() {
@@ -45,7 +58,7 @@ class App extends Component {
         <div className='greyDiv'></div>
         <Skills titles={this.state.titles} skills={this.state.skills}></Skills>
         <div className='greyDiv'></div>
-        
+        <Education titles={this.state.titles} schools={this.state.schools} education={this.state.education}></Education>
       </div>
     );
   }
